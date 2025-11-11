@@ -1,15 +1,15 @@
-MachineLearning — Regression & Classification on Tabular Data
+# MachineLearning — Regression & Classification on Tabular Data
 
-A compact, reproducible project that demonstrates tabular ML for two real-world problems:
+## A compact, reproducible project that demonstrates tabular ML for two real-world problems:
 
-Regression (Used-Car Price Prediction) — predict selling_price from specs & usage.
+## Regression (Used-Car Price Prediction) — predict selling_price from specs & usage.
 
-Classification (Telecom Churn) — predict whether a customer will churn.
+## Classification (Telecom Churn) — predict whether a customer will churn.
 
 Both notebooks use sklearn pipelines (impute → scale/encode → model), clear metrics, and tidy plots.
 Classification additionally shows class-imbalance handling with SMOTE and model tuning.
 
-📦 Repository Structure
+### 📦 Repository Structure
 MachineLearning/
 ├─ regression.ipynb         # Used-car price regression (RF vs MLP, tuning, learning curves)
 ├─ classification.ipynb     # Telco churn classification (RF vs MLP, SMOTE, tuning)
